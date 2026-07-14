@@ -44,7 +44,7 @@ body {
 /* Hidden by default on desktop screens */
 
 .hamburger-icon {
-    display: none;
+    /*display: none;*/
     color: white;
     font-size: 2rem;
     cursor: pointer;
@@ -101,28 +101,34 @@ Do not delete any of the above code. */
         background-color: green;
         color: white;
     }
-}
-
-
-/* c2 */
-
-.layout-wrapper {
-    display: flex;
-    gap: 20px;
-}
-
-.main-content {
-    background-color: #3498db;
-    padding: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    border-radius: 8px;
-}
-
-.sidebar {
-    background-color: rgb(39, 106, 109);
-    padding: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    border-radius: 8px;
+    /* C2 styling for mobile */
+    .layout-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburger-icon {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    /* c2 */
+    .layout-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+    .main-content {
+        background-color: #3498db;
+        padding: 20px;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        border-radius: 8px;
+    }
+    .sidebar {
+        background-color: rgb(39, 106, 109);
+        padding: 20px;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        border-radius: 8px;
+    }
 }
