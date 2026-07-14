@@ -128,23 +128,28 @@ Do not delete any of the above code. */
         display: flex;
         flex-direction: column;
     }
-    /* c2 */
-    .layout-wrapper {
-        display: flex;
-        gap: 20px;
-    }
-    .main-content {
-        background-color: #3498db;
-        padding: 20px;
-        color: white;
-        text-shadow: 2px 2px 5px black;
-        border-radius: 8px;
-    }
-    .sidebar {
-        background-color: rgb(39, 106, 109);
-        padding: 20px;
-        color: white;
-        text-shadow: 2px 2px 5px black;
-        border-radius: 8px;
-    }
+}
+
+
+/* c2 */
+
+.layout-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.main-content {
+    background-color: #3498db;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 8px;
+}
+
+.sidebar {
+    background-color: rgb(39, 106, 109);
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 8px;
 }
