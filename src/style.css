@@ -86,9 +86,19 @@ Do not delete any of the above code. */
 
 /* Styling for tablets */
 
-@media screen and(max-width:991px) {
+@media screen and(max-width: 991px) {
     .light-box {
         background-color: yellow;
         color: #2c3e50;
+    }
+}
+
+
+/* Styling for mobile */
+
+@media screen and(max-width: 786px) {
+    .light-box {
+        background-color: green;
+        color: white;
     }
 }
