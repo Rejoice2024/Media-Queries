@@ -44,7 +44,7 @@ body {
 /* Hidden by default on desktop screens */
 
 .hamburger-icon {
-    /*display: none;*/
+    display: none;
     color: white;
     font-size: 2rem;
     cursor: pointer;
@@ -73,7 +73,7 @@ body {
 Do not delete any of the above code. */
 
 
-/* Part 1 of C1 achieved */
+/* part 1 of C1 acheived */
 
 .light-box {
     background-color: red;
@@ -84,54 +84,7 @@ Do not delete any of the above code. */
 }
 
 
-/* Styling for tablets */
-
-@media screen and(max-width: 991px) {
-    .light-box {
-        background-color: yellow;
-        color: #2c3e50;
-    }
-}
-
-
-/* Styling for mobile */
-
-@media screen and(max-width: 786px) {
-    .light-box {
-        background-color: green;
-        color: white;
-    }
-    /* C2 styling for mobile */
-    .layout-wrapper {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .hamburger-icon {
-        display: block;
-        color: white;
-        font-size: 2rem;
-        cursor: pointer;
-    }
-    .nav-links {
-        display: none;
-        background-color: #34495e;
-        position: absolute;
-        top: 100%;
-        right: 0%;
-        padding: 10px 0px;
-        width: 150px;
-    }
-    .nav-links li {
-        margin: 10px 0px;
-    }
-    .menu-container:hover .nav-links {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-/* c2 */
+/* C2 */
 
 .layout-wrapper {
     display: flex;
@@ -142,14 +95,58 @@ Do not delete any of the above code. */
     background-color: #3498db;
     padding: 20px;
     color: white;
-    text-shadow: 2px 2px 5px black;
     border-radius: 8px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .sidebar {
-    background-color: rgb(39, 106, 109);
+    background-color: cadetblue;
     padding: 20px;
     color: white;
     text-shadow: 2px 2px 5px black;
     border-radius: 8px;
+}
+
+
+/* styling on tablet */
+
+@media screen and (max-width:991px) {
+    .light-box {
+        background-color: yellow;
+        color: #2c3e50;
+    }
+}
+
+
+/* Styling for mobile  */
+
+@media screen and (max-width: 786px) {
+    /* C1 styling for mobile */
+    .light-box {
+        background-color: green;
+        color: white;
+    }
+    /* C2 styling for mobile */
+    .layout-wrapper {
+        flex-direction: column;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        background-color: #34495e;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding: 10px 0px;
+        width: 150px;
+    }
+    .nav-links li {
+        margin: 10px 0px;
+    }
+    .menu-container:hover .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
 }
